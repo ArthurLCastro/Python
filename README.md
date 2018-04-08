@@ -1,2 +1,2 @@
 # Python
-Repositório destinado a scipts em Python
+Repositório destinado a armazenar scipts em Python
