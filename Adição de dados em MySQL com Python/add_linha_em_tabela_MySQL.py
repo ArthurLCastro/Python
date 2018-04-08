@@ -7,11 +7,11 @@ import mysql.connector
 conn = mysql.connector.connect(
 			user='root',
 			password='root',
-			host='127.0.0.1',
+			host='localhost',
 			database='Cadastro')
 
 cur = conn.cursor()
-query = ("INSERT INTO Clientes (NOME, EMAIL, FONE) VALUES ('Arthur Castro','arthur.castro07@gmail.com','912345678')")
+query = ("INSERT INTO CLIENTES (NOME, EMAIL, FONE) VALUES ('Arthur Castro','arthur.castro07@gmail.com','912345678')")
 cur.execute(query)
 conn.commit()
 
